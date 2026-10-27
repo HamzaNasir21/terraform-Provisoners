@@ -1,0 +1,48 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+crash.*.log
+*.tfplan
+tfplan
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+.terraformrc
+terraform.rc
+
+# Variable files (may contain real values/secrets)
+*.tfvars
+*.tfvars.json
+!terraform.tfvars.example
+
+# Keys and credentials
+*.pem
+*.key
+*.ppk
+id_rsa*
+*.p12
+.env
+.env.*
+!.env.example
+credentials
+.aws/
+secrets.txt
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+env/
+*.egg-info/
+.pytest_cache/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.swp
